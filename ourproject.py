@@ -9,5 +9,5 @@ def words_occur():
         print("File %s has %d words (%d are unique)" \
            % (file_name3, len(word_list), len(occurs_dict)))
         print(occurs_dict)
-    if __name__ == '__main__': 
-        words_occur()
+if __name__ == '__main__':
+    words_occur()
